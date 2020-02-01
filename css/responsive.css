@@ -8,6 +8,15 @@
     p {
         margin: 0px 40px;
     }
+
+    .ruleList {
+        margin: 0px 40px;
+        text-align: left;
+    }
+    
+    .ruleList li {
+        margin: 20px 0px;
+    }
 }
 
 /* Desktop Styles */
@@ -54,6 +63,15 @@
     }
 
     .sectionDescription {
+        margin: 20px 0px;
+    }
+
+    .ruleList {
+        margin: 0px 40px;
+        text-align: left;
+    }
+    
+    .ruleList li {
         margin: 20px 0px;
     }
 }
