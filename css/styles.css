@@ -63,7 +63,8 @@ p {
 }
 
 .sectionImage {
-    width: 100%;
+    max-width: 100%;
+    max-height: 960px;
 }
 
 .imageCaption {
