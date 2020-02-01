@@ -2,21 +2,48 @@ nav {
     box-shadow: 0px 1px 3px 1px rgba(0,0,0,.5);
 }
 
-.homepageTitle {
-    margin: 20px 0px;
+p {
+    margin: 0px 15px;
+}
+
+.pageTitle {
+    margin-top: 80px;
+    margin-bottom: 20px;
 }
 
 #homepageImageContainer {
     display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr 1fr;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
+    grid-auto-rows: auto;
     width: 100%;
+    grid-gap: 20px;
+}
+
+#tennisImage {
+    order: 1;
+}
+
+#tennisDescription {
+    order: 2;
+}
+
+#pingpongImage {
+    order: 3;
+}
+
+#pingpongDescription {
+    order: 4;
+}
+
+#pickleballImage {
+    order: 5;
+}
+
+#pickleballDescription {
+    order: 6;
 }
 
 .homepageImage {
     width: 100%;
-    margin: auto;
 }
 
 .footer {
@@ -29,4 +56,16 @@ nav {
     max-width: 960px;
     margin:40px auto;
     text-align: center;
+}
+
+.sectionDescription {
+    margin-bottom: 20px;
+}
+
+.sectionImage {
+    width: 100%;
+}
+
+.imageCaption {
+    font-style: italic;
 }

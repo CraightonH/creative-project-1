@@ -1,0 +1,59 @@
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    p {
+        margin: 0px 40px;
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    p {
+        margin: 0px 40px;
+    }
+
+    #homepageImageContainer {
+        display: grid;
+        grid-template: auto / 1fr 1fr 1fr;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        width: 100%;
+    }
+    
+    .homepageImage {
+        width: 100%;
+        margin: auto;
+    }
+
+    #tennisImage {
+        order: 1;
+    }
+    
+    #tennisDescription {
+        order: 4;
+    }
+    
+    #pingpongImage {
+        order: 2;
+    }
+    
+    #pingpongDescription {
+        order: 5;
+    }
+    
+    #pickleballImage {
+        order: 3;
+    }
+    
+    #pickleballDescription {
+        order: 6;
+    }
+
+    .sectionDescription {
+        margin: 20px 0px;
+    }
+}
